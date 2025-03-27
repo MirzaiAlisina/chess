@@ -1,7 +1,7 @@
-// Skapa schackbrädet dynamiskt
+// schackbrädet dynamiskt
 const chessboard = document.querySelector('.chessboard');
 
-// Skapa 64 rutor och lägg till rätt färg
+// 64 rutor och lägg till rätt färg
 for (let i = 0; i < 64; i++) {
     const square = document.createElement('div');
     square.classList.add('square');
